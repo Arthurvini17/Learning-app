@@ -1,10 +1,14 @@
+import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 
 
 export default function Header() {
     return (
         <header className="p-4 border-b-gray-200 flex items-center justify-between font-semibold">
-            <h1 className="text-2xl font-bold text-yellow-400">Weekend</h1>
+            <div className="">
+                <h1 className="text-xl text-[#49e60c]">Learning +</h1>
+            </div>
+
             <nav>
                 <ul className="flex gap-6 items-center">
 
