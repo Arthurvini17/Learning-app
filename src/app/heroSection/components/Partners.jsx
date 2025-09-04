@@ -6,6 +6,7 @@ export default function Partners() {
             <p className="text-xl">
                 <span className="text-green-600 font-bold text-3xl">250+</span> <br /> Collaborations
             </p>
+
             <Image
                 src="/images/cdnlogo.com_duolingo-black.svg"
                 width={100}
