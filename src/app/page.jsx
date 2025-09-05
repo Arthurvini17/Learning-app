@@ -1,11 +1,15 @@
 import Header from "../components/Header";
-import Hero from "./heroSection/Hero";
+import App from "./heroSection/App";
+import Popularclass from "./popularClass/components/PopularClass";
+import Services from "./services/Services";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Hero />
+      <App />
+      <Services />
+      <Popularclass />
     </div>
 
   );
