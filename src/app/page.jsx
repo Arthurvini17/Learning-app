@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import App from "./heroSection/App";
+import Popularclass from "./popularClass/components/PopularClass";
 import Services from "./services/Services";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <App />
       <Services />
+      <Popularclass />
     </div>
 
   );
