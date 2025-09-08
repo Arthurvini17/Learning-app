@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header className="p-4 border-b border-gray-200 font-semibold">
             <div className="flex items-center justify-between">
-                <h1 className="text-xl text-[#49e60c]">Learning +</h1>
+                <h1 className="text-xl text-[#20B486]">Learning +</h1>
 
                 <div className="hidden md:block relative w-64">
                     <CiSearch className="absolute left-2 top-1/2 -translate-y-1/2 text-gray-400" />

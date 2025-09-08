@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { RiSpeakLine } from "react-icons/ri";
 import { CiShoppingBasket } from "react-icons/ci";
@@ -5,6 +6,7 @@ import { FcIdea } from "react-icons/fc";
 import { GiProgression } from "react-icons/gi";
 import { MdVideoSettings } from "react-icons/md";
 import Partners from "./components/Partners";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function App() {
     return (
@@ -20,8 +22,15 @@ export default function App() {
 
                     <div className="max-w-xl text-md text-[#646464]">
                         <p>
-                            Learn UI-UX Design skills with weekend UX. The latest online
-                            learning system and material that help your knowledge growing.
+                            <Typewriter
+                                words={[
+                                    "Learn UI-UX Design skills with weekend UX. The latest online learning system and material that help your knowledge growing."
+                                ]}
+                                loop={1}
+                                cursor
+                                cursorStyle="|"
+                                typeSpeed={60}
+                            />
                         </p>
                     </div>
 
