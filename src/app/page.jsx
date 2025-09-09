@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import App from "./App";
+import Feedbacks from "./home/feedbacks/Feedbacks";
 import Heroes from "./home/heroes/Heroes";
 import Popularclass from "./home/popularClass/PopularClass";
 import Services from "./home/services/Services";
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Popularclass />
       <Heroes />
+      <Feedbacks />
     </div>
 
   );
