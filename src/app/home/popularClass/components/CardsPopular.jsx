@@ -37,9 +37,9 @@ export default function CardPopular({
                     <Image
                         src={user}
                         alt={name_user}
-                        width={40}
-                        height={40}
-                        className=" w-8 h-8 sm:w-10 sm:h-10"
+                        width={30}
+                        height={20}
+                        className=" md:w-6 md:h-6 sm:w-10 sm:h-10"
                     />
                     <span className=" sm:text-sm md:text-base">{name_user}</span>
                     <p className="ml-auto text-[#1A906B] font-semibold text-sm md:text-2xl">
