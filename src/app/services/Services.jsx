@@ -28,7 +28,7 @@ export default function Services() {
                 <p className="text-[#20B486] font-semibold text-base sm:text-lg md:text-xl">
                     Our Services
                 </p>
-                <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold max-w-xl">
+                <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold max-w-2xl">
                     Fostering a playful & engaging learning environment
                 </h1>
             </div>
