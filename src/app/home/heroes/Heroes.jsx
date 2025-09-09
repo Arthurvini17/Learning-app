@@ -1,4 +1,4 @@
-import CardsHeroes from "./CardsHeroes";
+import CardsHeroes from "./components/CardsHeroes"
 
 export default function Heroes() {
 

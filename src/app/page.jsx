@@ -1,8 +1,8 @@
 import Header from "../components/Header";
 import App from "./App";
-import Heroes from "./heroes/components/Heroes";
-import Popularclass from "./popularClass/components/PopularClass";
-import Services from "./services/Services";
+import Heroes from "./home/heroes/Heroes";
+import Popularclass from "./home/popularClass/PopularClass";
+import Services from "./home/services/Services";
 
 export default function Home() {
   return (

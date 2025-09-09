@@ -1,5 +1,5 @@
-import PrimaryText from "./PrimaryText";
-import CardsPopular from "./CardsPopular";
+import PrimaryText from "./components/PrimaryText";
+import CardsPopular from "./components/CardsPopular";
 
 export default function Popularclass() {
     const cardsPopularData = [

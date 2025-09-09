@@ -5,7 +5,7 @@ import { CiShoppingBasket } from "react-icons/ci";
 import { FcIdea } from "react-icons/fc";
 import { GiProgression } from "react-icons/gi";
 import { MdVideoSettings } from "react-icons/md";
-import Partners from "./heroSection/components/Partners";
+import Partners from "./home/heroSection/components/Partners";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function App() {
