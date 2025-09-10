@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CardsUsers({ name, role, feedback, imageSrc, alt }) {
     return (
-        <div className="md:flex  md:flex-col md:text-center md:items-center md:p-20 bg-white shadow md:gap-3">
+        <div className="md:flex md:flex-col md:text-center md:items-center md:p-20 bg-white shadow md:gap-3">
             <div className=" max-w-2xl">
                 <h1 className="md:text-2xl  leading-7">{feedback}</h1>
             </div>

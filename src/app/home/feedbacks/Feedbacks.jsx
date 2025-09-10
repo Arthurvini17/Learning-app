@@ -34,7 +34,7 @@ export default function Feedbacks() {
                 scrollbar={{ draggable: true }}
             >
                 {CardsUsersData.map((card, index) => (
-                    <SwiperSlide className='w-full flex items-center justify-center' key={index}>
+                    <SwiperSlide className='md:w-full md:flex md:items-center md:justify-center' key={index}>
                         <CardsUsers
                             feedback={card.feedback}
                             imageSrc={card.imageSrc}
