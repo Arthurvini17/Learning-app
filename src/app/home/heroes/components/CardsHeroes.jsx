@@ -15,7 +15,7 @@ export default function CardsHeroes({
                 alt={imageAlt}
                 width={imageWidth}
                 height={imageHeight}
-                className=" rounded-full w-1/2"
+                className=" rounded-full "
             />
 
             <div className="gap-4 flex flex-col">
