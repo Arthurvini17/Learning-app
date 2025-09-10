@@ -3,6 +3,7 @@ import App from "./App";
 import Feedbacks from "./home/feedbacks/Feedbacks";
 import Heroes from "./home/heroes/Heroes";
 import Popularclass from "./home/popularClass/PopularClass";
+import RecentBlogs from "./home/recentBlogs/RecentBlogs";
 import Services from "./home/services/Services";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Popularclass />
       <Heroes />
       <Feedbacks />
+      <RecentBlogs />
     </div>
 
   );
