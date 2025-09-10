@@ -13,9 +13,11 @@ export default function Home() {
       <App />
       <Services />
       <Popularclass />
+
       <Heroes />
       <Feedbacks />
       <RecentBlogs />
+
     </div>
 
   );

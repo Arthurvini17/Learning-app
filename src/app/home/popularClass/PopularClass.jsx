@@ -50,7 +50,7 @@ export default function Popularclass() {
                     description="Let's join our famous class, the knowledge provided will definitely be useful for you." />
             </div>
 
-            <div className="flex flex-col gap-6   md:flex-row p-20 ">
+            <div className="flex flex-col gap-6     md:flex-row  ">
                 {cardsPopularData.map((card, index) => (
                     <CardsPopular
                         key={index}

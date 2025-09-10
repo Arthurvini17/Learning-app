@@ -12,10 +12,10 @@ export default function App() {
     return (
         <>
             <section className="md:flex   md:items-center md:py-20 md:justify-evenly flex-col md:flex-row">
-                <div className="md:flex md:flex-col flex flex-col gap-5  p-10 md:max-w-xl ">
-                    <div>
-                        <h1 className="font-semibold text-6xl">
-                            Up your <span className="text-[#20B486]">Skills</span> To <br />
+                <div className="md:flex md:flex-col flex flex-col gap-2   p-10 md:max-w-xl ">
+                    <div className="">
+                        <h1 className="font-semibold text-4xl md:text-6xl">
+                            Up your <span className="text-[#20B486]">Skills</span> To <br className="md:block hidden" />
                             <span className="text-[#20B486]">Advance</span> Your Career Path
                         </h1>
                     </div>
@@ -34,7 +34,7 @@ export default function App() {
                         </p>
                     </div>
 
-                    <div className="gap-5 flex self-start ">
+                    <div className="gap-5 flex self-start mt-2">
                         <button className="bg-[#20B486] text-white p-4 rounded-2xl font-medium cursor-pointer">
                             Get Started
                         </button>
@@ -62,7 +62,7 @@ export default function App() {
                         width={600}
                         height={400}
                         alt="Hero Image"
-                        className="w-full  md:w-[600px] md:h-[400px] md:bg-[#20B486] md:rounded-full"
+                        className="w-full h-auto md:w-[600px] md:h-[400px] md:bg-[#20B486] md:rounded-full"
                     />
 
                     <div className="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center justify-between gap-2
