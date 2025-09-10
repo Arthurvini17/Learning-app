@@ -41,14 +41,14 @@ export default function Heroes() {
         }
     ]
     return (
-        <div className="p-20">
-            <div className="md:items-center md:flex md:flex-col mb-10 gap-4">
-                <p className="text-2xl text-[#22B286] font-black ">Tutors </p>
-                <h1 className="text-4xl font-semibold">Meet the Heroes</h1>
-                <p className="text-[#667085] text-center ">On Weekend UX, instructors from all over the world instruct millions of students. <br /> We offer the knowledge and abilities.</p>
+        <div className="">
+            <div className="md:items-center md:flex md:flex-col items-center md:text-center   mx-auto p-5">
+                <p className="md:text-2xl text-xl text-[#22B286] font-black ">Tutors </p>
+                <h1 className="md:text-4xl text-3xl  font-semibold">Meet the Heroes</h1>
+                <p className="text-[#667085]  ">On Weekend UX, instructors from all over the world instruct millions of students. <br /> We offer the knowledge and abilities.</p>
 
             </div>
-            <div className="md:flex-row md:flex md:items-center md:justify-center md:gap-10">
+            <div className="md:flex-row md:flex md:items-center flex flex-col gap-5 items-center md:justify-center md:gap-10 p-20">
                 {CardsHeroesData.map((card, index) =>
                     <CardsHeroes
                         key={index}
