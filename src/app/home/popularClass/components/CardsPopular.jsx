@@ -14,7 +14,7 @@ export default function CardPopular({
 }) {
     return (
         <div className=" w-xl p-5
-            md:shadow-xl hover:cursor-pointer transition-transform duration-300 hover:scale-105  rounded-2xl  max-w-sm mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl ">
+              md:shadow hover:cursor-pointer transition-transform duration-300 hover:scale-105  rounded-2xl  max-w-sm mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl ">
             <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -23,7 +23,7 @@ export default function CardPopular({
                 className="w-full   object-cover   rounded-xl   sm:h-56 md:h-64 p-4 "
             />
 
-            <div className="p-5  flex flex-col gap-2  rounded-2xl shadow ">
+            <div className="p-5  flex flex-col gap-2   rounded-2xl  ">
                 <h1 className=" text-[#1A906B] text-base sm:text-lg md:text-xl font-semibold ">
                     {title}
                 </h1>
