@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "./components/Header";
 import App from "./App";
 import Feedbacks from "./home/feedbacks/Feedbacks";
 import Heroes from "./home/heroes/Heroes";

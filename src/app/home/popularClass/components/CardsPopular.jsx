@@ -13,7 +13,7 @@ export default function CardPopular({
     name_user,
 }) {
     return (
-        <div className=" w-md bg-white shadow-xl hover:cursor-pointer transition-transform duration-300 hover:scale-105  rounded-2xl  max-w-sm mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl">
+        <div className=" w-md bg-white shadow-xl hover:cursor-pointer transition-transform duration-300 hover:scale-105  rounded-2xl  max-w-sm mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl p-1">
             <Image
                 src={imageSrc}
                 alt={imageAlt}

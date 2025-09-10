@@ -42,7 +42,7 @@ export default function Popularclass() {
     ];
 
     return (
-        <div className=" p-20  flex gap-5 flex-col">
+        <div className=" md:p-20  items-center justify-center flex gap-5 flex-col">
             <div className="">
                 <PrimaryText
                     title="Explore Programs"
@@ -50,7 +50,7 @@ export default function Popularclass() {
                     description="Let's join our famous class, the knowledge provided will definitely be useful for you." />
             </div>
 
-            <div className="flex flex-col gap-6  md:flex-row  ">
+            <div className="flex flex-col gap-6   md:flex-row p-20 ">
                 {cardsPopularData.map((card, index) => (
                     <CardsPopular
                         key={index}
