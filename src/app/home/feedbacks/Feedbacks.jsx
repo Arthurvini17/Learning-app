@@ -9,18 +9,25 @@ export default function Feedbacks() {
 
     const CardsUsersData = [
         {
-            feedback: "Courses was fantastic! It is Master platform for those looking to start a new career, or need a refresher.",
-            imageSrc: "/images/theressa.jpg",
-            name: "Jacob Jones",
-            role: "Student, National University",
+            feedback: "The course exceeded my expectations! Clear explanations and very practical examples.",
+            imageSrc: "/images/student-.png",
+            name: "Lucas Andrade",
+            role: "Software Engineer, Tech Solutions",
             alt: "user1"
         },
         {
-            feedback: "Courses was fantastic! It is Master platform for those looking to start a new career, or need a refresher.",
-            imageSrc: "/images/theressa.jpg",
-            name: "Jacob Jones",
-            role: "Student, National University",
+            feedback: "I learned a lot in a short time. The platform is perfect for building real skills.",
+            imageSrc: "/images/student1.jpg",
+            name: "Rafael Costa",
+            role: "Data Analyst, Global Insights",
             alt: "user2"
+        },
+        {
+            feedback: "Great experience! The content is well structured and easy to follow.",
+            imageSrc: "/images/student.jpg",
+            name: "Gabriel Martins",
+            role: "Front-End Developer, Creative Studio",
+            alt: "user3"
         }
     ]
 
