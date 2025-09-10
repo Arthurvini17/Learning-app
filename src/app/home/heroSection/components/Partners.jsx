@@ -2,11 +2,8 @@ import Image from "next/image";
 
 export default function Partners() {
     return (
-        <div className="p-6">
-            <p className="text-xl text-center md:text-left mb-6 md:mb-0">
-                <span className="text-green-600 font-bold text-3xl">250+</span> <br />
-                Collaborations
-            </p>
+        <div className=" p-4">
+
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center justify-items-center">
                 <div>
