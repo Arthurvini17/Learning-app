@@ -11,16 +11,16 @@ import { Typewriter } from "react-simple-typewriter";
 export default function App() {
     return (
         <>
-            <section className="flex items-center py-20 justify-evenly flex-col md:flex-row">
-                <div className="flex flex-col gap-5 max-w-xl">
-                    <div>
-                        <h1 className="font-semibold text-6xl">
-                            Up your <span className="text-[#20B486]">Skills</span> To <br />
+            <section className="md:flex   md:items-center md:py-20 md:justify-evenly flex-col md:flex-row">
+                <div className="md:flex md:flex-col flex flex-col gap-2   p-10 md:max-w-xl ">
+                    <div className="">
+                        <h1 className="font-semibold text-4xl md:text-6xl">
+                            Up your <span className="text-[#20B486]">Skills</span> To <br className="md:block hidden" />
                             <span className="text-[#20B486]">Advance</span> Your Career Path
                         </h1>
                     </div>
 
-                    <div className="max-w-xl text-md text-[#646464]">
+                    <div className="md:max-w-xl md:text-md max-w-2xl text-[#646464]">
                         <p>
                             <Typewriter
                                 words={[
@@ -34,7 +34,7 @@ export default function App() {
                         </p>
                     </div>
 
-                    <div className="gap-5 flex self-start ">
+                    <div className="gap-5 flex self-start mt-2">
                         <button className="bg-[#20B486] text-white p-4 rounded-2xl font-medium cursor-pointer">
                             Get Started
                         </button>
@@ -43,53 +43,52 @@ export default function App() {
                         </button>
                     </div>
 
-                    <div className="flex items-center text-gray-500 text-md  gap-6 mt-5">
-                        <p className="inline-flex items-center gap-x-2">
-                            <RiSpeakLine className="text-green-300 h-6 w-6" /> Public Speaking
+                    <div className="md:flex md:items-center items-center flex flex-row  md:text-gray-500 text-md  gap-6 mt-5">
+                        <p className="md:inline-flex md:items-center md:gap-x-2 inline-flex items-center gap-2">
+                            <RiSpeakLine className="text-green-300 md:block  hidden h-6 w-6" /> Public Speaking
                         </p>
-                        <p className="inline-flex items-center gap-x-2">
-                            <CiShoppingBasket className="h-6 w-6 text-red-500" /> Career-Oriented
+                        <p className="md:inline-flex md:items-center md:gap-x-2 inline-flex items-center gap-2">
+                            <CiShoppingBasket className="md:h-6 md:w-6 hidden md:block text-red-500" /> Career-Oriented
                         </p>
-                        <p className="inline-flex items-center gap-x-2">
-                            <FcIdea className="h-6 w-6" /> Creative Thinking
+                        <p className="md:inline-flex md:items-center md:gap-x-2 inline-flex items-center gap-2">
+                            <FcIdea className="md:h-6 md:w-6 hidden md:block " /> Creative Thinking
                         </p>
                     </div>
                 </div>
 
-                <div className="relative">
+                <div className="md:relative flex flex-row flex-wrap justify-center gap-4 mt-4 md:mt-0">
                     <Image
                         src="/images/young-student.png"
                         width={600}
                         height={400}
                         alt="Hero Image"
-                        className="bg-[#20B486] rounded-full"
+                        className="w-full h-auto md:w-[600px] md:h-[400px] md:bg-[#20B486] md:rounded-full"
                     />
 
-                    <div className="absolute top-72 bg-white p-2 rounded-lg shadow-lg gap-4">
-                        <div className="flex items-center gap-2">
-                            <p>
-                                <MdVideoSettings className="text-4xl" />
-                            </p>
-                            <p className="text-2xl font-bold">2K+</p>
-                            <p className="font-light">Video Courses</p>
-                        </div>
+                    <div className="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center justify-between gap-2
+                     md:absolute md:top-72 md:left-0 md:w-auto">
+                        <p>
+                            <MdVideoSettings className="text-4xl" />
+                        </p>
+                        <p className="text-2xl font-bold">2K+</p>
+                        <p className="font-light">Video Courses</p>
                     </div>
 
-                    <div className="absolute top-10 right-0 bg-white p-4 rounded-lg shadow-lg gap-4">
-                        <div className="flex flex-col items-center justify-center gap-1">
-                            <p>
-                                <GiProgression className="text-4xl text-green-600" />
-                            </p>
-                            <p className="text-2xl font-bold">5K+</p>
-                            <p className="font-light">Online Courses</p>
-                        </div>
+                    <div className="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center justify-center gap-1
+                     md:absolute md:top-10 md:right-0 md:w-auto">
+                        <p>
+                            <GiProgression className="text-4xl text-green-600" />
+                        </p>
+                        <p className="text-2xl font-bold">5K+</p>
+                        <p className="font-light">Online Courses</p>
                     </div>
                 </div>
+
+
+
             </section>
 
-            <div className="mt-8 text-center">
-                <Partners />
-            </div>
+            <Partners />
 
 
         </>
