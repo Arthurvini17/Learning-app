@@ -5,6 +5,7 @@ import Heroes from "./home/heroes/Heroes";
 import Popularclass from "./home/popularClass/PopularClass";
 import RecentBlogs from "./home/recentBlogs/RecentBlogs";
 import Services from "./home/services/Services";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,10 +14,10 @@ export default function Home() {
       <App />
       <Services />
       <Popularclass />
-
       <Heroes />
       <Feedbacks />
       <RecentBlogs />
+      <Footer />
 
     </div>
 
