@@ -31,12 +31,12 @@ Como rodar o projeto
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/learnin-plus-landing.git
+git clone https://github.com/Arthurvini17/Learning-app
 
 
 Acesse a pasta do projeto:
 
-cd learnin-plus-landing
+cd learning-app
 
 
 Instale as dependências:
