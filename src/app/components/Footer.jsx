@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="bg-[#101828]">
             <div className="grid grid-cols-3 gap-6 p-6 items-center text-center  md:flex md:items-start md:justify-around md:p-10">
 
-                <div className="w-full">
+                <div className="">
                     <h1 className="text-[#EAECF0] md:text-xl">Learning + </h1>
                     <p className="text-[#EAECF0] text-xs">
                         Top learning experiences that create more <br /> talent in the world.
