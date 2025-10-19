@@ -42,7 +42,7 @@ export default function Popularclass() {
     ];
 
     return (
-        <div className=" md:p-20  items-center justify-center flex gap-5 flex-col">
+        <div className="   items-center justify-center flex gap-5 flex-col">
             <div className="">
                 <PrimaryText
                     title="Explore Programs"

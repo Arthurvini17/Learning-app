@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function BlogCard() {
     return (
-        <div className="md:p-30">
-            <h1 className="text-2xl font-semibold">Our Recent blogs</h1>
+        <div className="">
+            <h1 className="text-2xl font-semibold mt-5 px-5">Our Recent blogs</h1>
 
             <div className="md:grid md:grid-cols-2 gap-10 flex flex-col md:grid-rows-2  md:gap-6  p-10 ">
 
